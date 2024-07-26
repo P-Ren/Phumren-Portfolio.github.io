@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+.bg {
+  background: linear-gradient(to top left, #420122 30%, #b9017b 100%);
+}
+.bg2 {
+  background: linear-gradient(to top right, #06021f 30%, #420122 100%);
+}
+.logo {
+  width: 80px;
+  height: 80px;
+}
+a {
+  color: #b2afaf;
+  text-decoration: none;
+  transition: 0.25s ease;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul li {
+  margin-left: 0.75em;
+  margin-right: 0.75em;
+  font-size: 1.2rem;
+}
+ul:hover a {
+  color: #868282;
+}
+ul:hover a:hover {
+  color: #2ec969;
+  box-shadow: 0 2px 0 0 currentcolor;
+}
+.font {
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: transparent;
+  background: linear-gradient(rgb(252, 165, 167) 30%, rgb(246, 143, 64) 100%);
+  -webkit-background-clip: text;
+}
+.font2 {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  color: transparent;
+  background: linear-gradient(rgb(252, 165, 167) 30%, rgb(246, 143, 64) 100%);
+  text-shadow: 0, 2px, 5px, 5px blue;
+  -webkit-background-clip: text;
+}
+.font3 {
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  color: transparent;
+  background: linear-gradient(rgb(160, 181, 236) 30%, rgb(231, 214, 186) 100%);
+  -webkit-background-clip: text;
+}
+.font4 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  color: transparent;
+  background: linear-gradient(rgb(249, 186, 155) 30%, rgb(163, 71, 0) 100%);
+  -webkit-background-clip: text;
+}
+.font5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  color: transparent;
+  background: linear-gradient(rgb(255, 147, 93) 30%, rgb(244, 73, 0) 100%);
+  -webkit-background-clip: text;
+}
+.magin {
+  margin-left: 1rem;
+  font-size: 1.7rem;
+  color: white;
+}
+.pic {
+  width: 500px;
+  height: 500px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Poppins:wght@400;600&family=Roboto:ital,wght@1,300&display=swap");
+
+:root {
+  --color-light: white;
+  --border-redius-one: 15px;
+  --border-redius-two: 20px;
+  --box-shadow: 0 0 10px rgb(6, 80, 136);
+}
+.grid1x4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+@media screen and (max-width: 800px) {
+  .grid-1x3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid1x4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.cat-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  border-radius: var(--border-redius-one);
+  padding: 1.2rem;
+}
+.cat-link:hover > .icon-link > img {
+  transform: scale(1.05);
+}
+.categories {
+  padding: 0 0.5rem;
+}
+.cat {
+  text-align: center;
+  margin: 2rem 0;
+}
+.icon-link {
+  width: 130px;
+  height: 160px;
+}
+.icon-link > img {
+  width: 100%;
+  transition: 0.2s;
+}
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: var(--box-shadow);
+}
+.left-nav {
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+}
+.right-nav {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(232, 250, 197);
+}
+.right-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.mg {
+  width: 30px;
+}
+.mg > img {
+  width: 100%;
+}
+.mg1 {
+  width: 50px;
+}
+.mg1 > img {
+  width: 100%;
+}
+.left-link {
+  border-radius: 15px;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.left-link-title > h3 {
+  font-size: 1.2rem;
+  font: bold;
+  color: rgb(156, 164, 164);
+}
+.left-link-title > a {
+  margin-top: 5px;
+  font-size: 1rem;
+  color: rgb(112, 115, 115);
+}
+.one:hover {
+  transition: 0.3s;
+  background-color: rgb(88, 221, 157);
+}
+.one:hover h3 {
+  color: rgb(4, 165, 85);
+}
+.Two:hover {
+  transition: 0.3s;
+  background-color: rgb(186, 229, 118);
+}
+.Two:hover h3 {
+  color: rgb(138, 186, 7);
+}
+.Three:hover {
+  transition: 0.3s;
+  background-color: rgb(123, 169, 238);
+}
+.Three:hover h3 {
+  color: rgb(46, 151, 242);
+}
+.for:hover {
+  transition: 0.3s;
+  background-color: rgb(237, 225, 132);
+}
+.for:hover h3 {
+  transition: 0.3s;
+  color: rgb(155, 157, 24);
+}
+.for:hover img {
+  transition: 0.3s;
+  color: rgb(199, 66, 154);
+}
+.five:hover {
+  transition: 0.3s;
+  background-color: rgb(245, 116, 168);
+}
+.five:hover h3 {
+  transition: 0.3s;
+  color: rgb(199, 66, 154);
+}
+.five .left-link-title > h3::after {
+  content: "New";
+  text-transform: uppercase;
+  padding: 0.2rem 0.7rem;
+  background-color: rgb(199, 66, 154);
+  font-size: 0.7rem;
+  border-radius: 5px;
+  color: azure;
+}
+.text {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.m-left {
+  margin-left: 1.5rem;
+}
+.pic {
+  width: 60%;
+  height: 85px;
+}
+@media screen and (max-width: 768px) {
+  .pic {
+    width: 80%;
+    height: 75px;
+  }
+}

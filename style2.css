@@ -1,0 +1,77 @@
+.a {
+  text-decoration: none;
+}
+.a:hover {
+  /* background: rgb(48, 11, 196); */
+  /* font-size: 2rem; */
+  font-weight: bold;
+  color: #025b8b;
+}
+.text {
+  text-decoration: none;
+}
+.b {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+/* groub color */
+.color-one {
+  background-color: yellowgreen;
+}
+.color-two {
+  background-color: rgb(0, 217, 255);
+}
+.color-three {
+  background-color: rgb(0, 245, 24);
+}
+.color-for {
+  background-color: rgb(255, 204, 0);
+}
+.color-body {
+  background-color: rgb(181, 240, 218);
+}
+.color-bodytwo {
+  background-color: rgb(0, 170, 26);
+  border-radius: 5px;
+}
+.color-slice {
+  background-color: rgb(2, 193, 123);
+}
+/* groub color */
+
+/* group magin */
+.magin-one {
+  margin-left: 1rem;
+}
+/* group magin */
+
+/*  group hover */
+.hover-two:hover {
+  background-color: aqua;
+  cursor: pointer;
+}
+.hover-one:hover {
+  background-color: rgb(195, 239, 106);
+  cursor: pointer;
+}
+.hover-three:hover {
+  background-color: rgb(88, 255, 105);
+  cursor: pointer;
+}
+.hover-for:hover {
+  background-color: rgb(255, 228, 118);
+  cursor: pointer;
+}
+.hover-five:hover {
+  background-color: rgb(3, 25, 1);
+  cursor: pointer;
+}
+.d:hover {
+  cursor: pointer;
+
+  width: 50px;
+  height: 30px;
+}
+.d {
+  background-color: aliceblue;
+  margin-left: -1.3rem;
+}

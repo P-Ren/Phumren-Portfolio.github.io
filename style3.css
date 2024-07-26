@@ -1,0 +1,72 @@
+.a {
+  text-shadow: 3px 3px 2px rgb(81, 3, 16);
+  font-weight: bold;
+}
+.b {
+  align-items: center;
+  text-align: center;
+}
+.b:hover > img {
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .b {
+    align-items: left;
+    text-align: left;
+  }
+}
+
+.c {
+  border-radius: 20px;
+}
+.d {
+  background-color: rgb(234, 230, 234);
+  font-family: khmer os battambang;
+}
+.color {
+  background: linear-gradient(90deg, rgb(94, 3, 88), rgb(18, 3, 105));
+}
+.color1 {
+  background: linear-gradient(90deg, rgb(22, 1, 100), rgb(109, 2, 86));
+}
+.e {
+  cursor: pointer;
+}
+.e > li:hover {
+  background-color: rgb(223, 225, 232);
+}
+.f {
+  background: linear-gradient(90deg, rgb(239, 234, 241), rgb(168, 223, 255));
+}
+.g {
+  background: linear-gradient(90deg, rgb(175, 220, 241), rgb(240, 220, 240));
+}
+.h {
+  position: sticky;
+}
+.menu {
+  @media screen and (max-width: 768px) {
+    .c {
+      z-index: 999;
+      overflow: hidden;
+      position: fixed;
+    }
+  }
+}
+.bar:hover {
+  cursor: pointer;
+
+  width: 50px;
+  height: 30px;
+}
+.bar {
+  background-color: aliceblue;
+  margin-left: 14rem;
+}
+.font {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.tag {
+  text-decoration: none;
+  color: black;
+}
