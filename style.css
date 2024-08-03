@@ -99,12 +99,23 @@ ul:hover a:hover {
   align-items: center;
   gap: 2rem;
 }
+
 @media screen and (max-width: 800px) {
-  .grid-1x3 {
-    grid-template-columns: repeat(2, 1fr);
-  }
   .grid1x4 {
-    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    margin-left: -1.8rem;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .grid1x4 {
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    margin-left: -0.8rem;
+    align-items: center;
+    gap: 1rem;
   }
 }
 .cat-link {
@@ -242,6 +253,9 @@ ul:hover a:hover {
 }
 .m-left {
   margin-left: 1.5rem;
+}
+.m-left2 {
+  margin-left: -1.5rem;
 }
 .pic {
   width: 60%;
